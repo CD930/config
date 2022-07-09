@@ -1,0 +1,40 @@
+alias ls="lsd" 
+alias gc="git clone"
+alias vi="vim"
+alias tree="tree -C"
+
+# XBPS Aliases
+alias xi="doas xbps-install"
+alias xq="doas xbps-query -Rs"
+alias xr="doas xbps-remove -R"
+
+$FZF_DEFAULT_OPTS
+$FZF_TMUX
+$FZF_TMUX_OPTS
+$FZF_TMUX_HEIGHT
+$FZF_CTRL_T_COMMAND
+$FZF_CTRL_T_OPTS
+$FZF_ALT_C_COMMANasdfskdfksdjfkjl
+
+$FZF_CTRL_R_OPTS
+
+# History
+HISTFILE="$HOME/.mksh_history"
+HISTSIZE=5000
+export PATH="$HOME/.local/bin:$PATH"
+
+# FZF COLORS 
+export FZF_DEFAULT_OPTS='
+  --color fg:#dadada,bg:#232a2d
+  --color bg+:#bab3e5,fg+:#2c2f30
+  --color hl:#dadada,hl+:#26292a,gutter:#1e2527
+  --color pointer:#131a1c,info:#606672
+  --border horizontal 
+  --color border:#1e2527
+  --height 40'
+
+export BAT_THEME=Everblush
+export G_SLICE=always-malloc
+
+PS1=$'\E[30m\e[30m\E[40m\E[35m \E[37m\E[40m''${PWD/"$HOME"/\~}'$'\E[0m\E[30m\e[0m \E[30m\e[30m\a\e[33m\e[40m\a$(date +%H:%M)\a\e[0m\E[0m\E[30m\e[0m\n \e[31m\e[32m\e[34\e[0m '
+
