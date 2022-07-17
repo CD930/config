@@ -1,5 +1,0 @@
-https:apis.google.com:443:.:^partitionKey=%28https%2Cgoogle.com%29:3	0	19168	https:apis.google.com:443:apis.google.com:443::n:1658793020:h3:y:1656200771:n:^partitionKey=%28https%2Cgoogle.com%29:|n:y:
-https:www.i-dont-care-about-cookies.eu:443:.::3	0	19168	https:www.i-dont-care-about-cookies.eu:443:www.i-dont-care-about-cookies.eu:443::n:1656287341:h3:y:1656200771:n::|n:y:
-https:www.gstatic.com:443:.:^partitionKey=%28https%2Cgoogle.com%29:3	0	19168	https:www.gstatic.com:443:www.gstatic.com:443::n:1658793019:h3:y:1656200771:n:^partitionKey=%28https%2Cgoogle.com%29:|n:y:
-https:www.google.com:443:.:^partitionKey=%28https%2Cgoogle.com%29:3	0	19168	https:www.google.com:443:www.google.com:443::n:1658793095:h3:y:1656200771:n:^partitionKey=%28https%2Cgoogle.com%29:|n:y:
-https:fonts.gstatic.com:443:.:^partitionKey=%28https%2Cgoogle.com%29:3	0	19168	https:fonts.gstatic.com:443:fonts.gstatic.com:443::n:1658793018:h3:y:1656200771:n:^partitionKey=%28https%2Cgoogle.com%29:|n:y:
