@@ -1,16 +1,17 @@
 # General Aliases
 alias lsd="ls -A --color" 
-alias gc="git clone --depth=1"
 alias vi="vim"
+alias record="ffmpeg -f x11grab -i :0.0 out.mp4"
+alias gc="git clone --depth=1"
 alias tree="tree -C"
 
 # XBPS Aliases
+alias xu="doas xbps-install -Su"
 alias xi="doas xbps-install"
 alias xq="xbps-query -Rs"
 alias xr="doas xbps-remove -R"
-alias xu="doas xbps-install -Su"
 
 # History
 HISTFILE="$HOME/.mksh_history"
-HISTSIZE=5000
+HISTSIZE=200
 export PATH="$HOME/.local/bin:$PATH"
