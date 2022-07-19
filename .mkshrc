@@ -4,6 +4,8 @@ alias vi="vim"
 alias record="ffmpeg -f x11grab -i :0.0 out.mp4"
 alias gc="git clone --depth=1"
 alias tree="tree -C"
+alias top="btop"
+alias cat="bat"
 
 # XBPS Aliases
 alias xu="doas xbps-install -Su"
