@@ -1,11 +1,9 @@
 # General Aliases
-alias lsd="ls -A --color" 
-alias vi="vim"
-alias record="ffmpeg -f x11grab -i :0.0 out.mp4"
-alias gc="git clone --depth=1"
-alias tree="tree -C"
+alias lsd="ls -A --color"
+alias vi="nvim"
+alias record="ffmpeg -video_size 1366x768 -framerate 24 -f x11grab -i :0.0 -f pulse -ac 2 -i alsa_output.pci-0000_00_09.2.analog-stereo.monitor output.mkv"
 alias top="btop"
-alias cat="bat"
+alias reconnect="nmcli device disconnect wlp3s0 && nmcli device wifi connect IZZI-E8CB password FCAE34B6E8CB"
 
 # XBPS Aliases
 alias xu="doas xbps-install -Su"
@@ -15,5 +13,9 @@ alias xr="doas xbps-remove -R"
 
 # History
 HISTFILE="$HOME/.mksh_history"
-HISTSIZE=200
+HISTSIZE=2000
 export PATH="$HOME/.local/bin:$PATH"
+
+# Looking
+neofetch
+PS1=$'\E[35;7m$(logname)@$(hostname)\E[0m:\E[32;1m$PWD\E[0m $: '
