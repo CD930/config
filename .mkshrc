@@ -1,9 +1,6 @@
 # General Aliases
 alias lsd="ls -A --color"
 alias vi="nvim"
-alias record="ffmpeg -video_size 1366x768 -framerate 24 -f x11grab -i :0.0 -f pulse -ac 2 -i alsa_output.pci-0000_00_09.2.analog-stereo.monitor output.mkv"
-alias top="btop"
-alias reconnect="nmcli device disconnect wlp3s0 && nmcli device wifi connect IZZI-E8CB password FCAE34B6E8CB"
 
 # XBPS Aliases
 alias xu="doas xbps-install -Su"
