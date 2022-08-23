@@ -2,7 +2,7 @@
 my configs of various software
 ## How to install
 ```sh
-git clone --depth=1 https://github.com/grezzzo/config.git
+git clone --depth=1 https://github.com/CD930/config.git
 ```
 
 - drop .xinitrc and .mkshrc in your home folder
