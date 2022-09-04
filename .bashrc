@@ -2,7 +2,7 @@
 
 # General Aliases
 alias vi="nvim"
-alias ls="ls --color=auto"
+alias ls="ls -lA --color=auto"
 alias top="btop"
 
 # Xbps Aliases
