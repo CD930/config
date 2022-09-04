@@ -1,5 +1,5 @@
 # General Aliases
-alias lsd="ls -A --color"
+alias lsd="ls -lA --color"
 alias vi="nvim"
 
 # XBPS Aliases
