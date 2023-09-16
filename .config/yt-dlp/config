@@ -1,0 +1,4 @@
+-o ~/media/vids/%(title)s
+--default-search "ytsearch"
+-S res:720
+--remux-video mp4

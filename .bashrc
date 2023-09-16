@@ -1,8 +1,8 @@
 [[ $- != *i* ]] && return
 
 # General Aliases
-alias vi="nvim"
-alias ls="ls -lA --color=auto"
+alias vi="vis"
+alias ls="ls -A --color=auto"
 alias top="btop"
 
 # Xbps Aliases
@@ -12,5 +12,5 @@ alias xr="doas xbps-remove -R"
 alias xq="xbps-query -Rs"
 alias xl="xbps-query -l"
 
-# Looking
+# Aesthetic
 PS1='[\u@\h \W]\$ '

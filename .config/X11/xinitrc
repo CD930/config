@@ -1,0 +1,6 @@
+setxkbmap ru &
+exec xrdb ~/.config/X11/xresources &
+xwallpaper --stretch media/img/bg/1683439119180674.jpg &
+xcompmgr &
+exec slstatus &
+exec dwm
