@@ -50,8 +50,8 @@ config.set('content.webrtc_ip_handling_policy', 'disable-non-proxied-udp')
 config.set('url.start_pages', 'qute://start')
 
 # Search engine
-config.set('url.searchengines', {"DEFAULT": "https://search.demoniak.ch/search?q={}"})
+config.set('url.searchengines', {"DEFAULT": "https://4get.ca/web?s={}"})
 
 # Bindings
 config.bind('M', 'hint links spawn mpv {hint-url}')
-config.bind('Z', 'hint links spawn st -e youtube-dl {hint-url}')
+config.bind('Z', 'hint links spawn st -e yt-dlp {hint-url}')

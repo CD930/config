@@ -1,0 +1,5 @@
+[global]
+frame_color = "#b3b3b3"
+background = "#1a1a1a"
+foreground = "#b3b3b3"
+separator_color= frame

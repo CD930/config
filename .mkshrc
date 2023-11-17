@@ -1,5 +1,6 @@
 # General Aliases
 alias ls="ls -A --color"
+alias nmreset="doas nmcli device disconnect wlp3s0 && doas nmcli device wifi connect IZZI-E8CB password FCAE34B6E8CB"
 alias nnn="nnn -d"
 
 # XBPS Aliases
@@ -14,6 +15,7 @@ HISTSIZE=2000
 export PATH="$HOME/.local/bin:$PATH"
 
 # Environment
+export GPG_TTY="$(tty)"
 export EDITOR="vis"
 export TERMINAL="st"
 export BROWSER="qutebrowser"
@@ -29,6 +31,7 @@ export PYTHONSTARTUP="$HOME/.config/python/pythonrc"
 export XINITRC="$HOME/.config/X11/xinitrc"
 export ICEAUTHORITY="$HOME/.cache/ICEauthority"
 export NNN_OPENER="xdg-open"
+export XDG_RUNTIME_DIR="/run/user/$(id -u)"
 
 # Aesthetic
-PS1=$'\E[35;7m$(logname)@$(hostname)\E[0m:\E[32;1m$PWD\E[0m $: '
+PS1="$(echo '\033[01;34m$(pwd | sed "s,^$HOME,~,") \033[00m$') "
